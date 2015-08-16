@@ -1,0 +1,10 @@
+[package]
+
+name = "multiples"
+version = "0.0.1"
+authors = [ "Diogo Beda <diogo.fbeda@gmail.com>" ]
+
+[[bin]]
+
+name = "multiples"
+path = "src/multiples.rs"
