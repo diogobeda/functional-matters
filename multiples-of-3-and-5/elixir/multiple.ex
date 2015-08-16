@@ -8,13 +8,13 @@ defmodule Multiple do
       end)
   end
 
-  def is_multiple(target, [number | numbers]) do
+  defp is_multiple(target, [number | numbers]) do
     is_multiple(target, number) || is_multiple(target, numbers)
   end
 
-  def is_multiple(_target, []), do: false
+  defp is_multiple(_target, []), do: false
 
-  def is_multiple(target, number) do
+  defp is_multiple(target, number) do
     rem(target, number) == 0
   end
 end
