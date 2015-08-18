@@ -6,7 +6,7 @@ Find the sum of all the multiples of 3 or 5 below 1000.
 - [x] Clojure
 - [x] Elm
 - [ ] Erlang
-- [ ] Haskell
+- [x] Haskell
 - [ ] R
 - [ ] OCaml
 - [x] Rust

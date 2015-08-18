@@ -3,3 +3,5 @@ elm-stuff/
 elm-package.json
 Cargo.lock
 target
+*.hi
+*.o
