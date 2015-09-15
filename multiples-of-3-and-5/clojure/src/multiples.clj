@@ -1,4 +1,4 @@
-(ns multiple)
+(ns multiples)
 
 (defn is-multiple [target number]
   (= (mod target number) 0))
@@ -13,5 +13,5 @@
       (conj accumulator target)
       accumulator)))
 
-(defn multiple-of [numbers quantity]
+(defn multiples-of [numbers quantity]
   (reduce (filter-multiples-of numbers) [] (range 1 (+ quantity 1))))
